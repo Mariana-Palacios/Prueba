@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/styles.css">
+    <script src="https://kit.fontawesome.com/1af9e3cc3a.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="information flex flex-jc-c flex-ai-c flex-fd-c">
+        <i class="fas fa-lock"></i>
+        <h1 class="information__tittle">Set Password</h1>
+        <h2 class="information__h2">Type your new password.</h2>
+        <p class="information__p">(At least 8 characters, one capital letter, one number and one special character)</p>
+    </div>
+    <div class="login flex flex-jc-c flex-ai-c flex-fd-c">
+        <h2 class="login__tittle"  id="login__tittle">Password</h2>
+        <input type="password" id="password">
+        <p id="text_1" class="little__text"></p>
+        <p id="text_2" class="little__text"></p>
+        <p id="text_3" class="little__text"></p>
+        <p id="text_4" class="little__text"></p>
+    </div>
+    <div class="login flex flex-jc-c flex-ai-c flex-fd-c">
+        <h2 class="login__tittle">Confirm Password</h2>
+        <input type="password" id="ConPassword">
+        <!-- <i id="match_img" class="fa-regular fa-circle-check"></i> -->
+        <p id="match" class="little__text" id="login__tittle"></p>
+    </div>
+    <div class="btn-container flex flex-jc-c">
+        <button class="btn" id="btn">SET PASSWORD</button>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
+
+
+
+

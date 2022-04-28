@@ -1,0 +1,89 @@
+@import './variables';
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $OpenSans;
+}
+
+.flex{
+    display: flex; 
+    &-jc-c{
+        justify-content: center;
+    }
+    &-ai-c{
+        align-items: center;
+    }
+    &-fd-c{
+        flex-direction: column;
+    }
+}
+
+.information{
+    i{
+        color: $blue;
+        margin-top: 2.5rem;//40px
+        font-size: 90px;
+    }
+    &__tittle{
+        font-size: 1.25rem;//20px
+        color: $dark-blue;
+        font-weight: bold;
+        margin: 1rem 0px;
+    }
+    &__h2{
+        color: $blue;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    &__p{
+        font-size: 1rem;//16px
+        width: 18.5rem;//296px
+        margin: 8px 0 20px 0px;
+    }
+
+}
+
+.login{
+    &__tittle{
+        font-size: 0.75rem;//16px
+        color: $blue;
+        margin: 1.25rem 0px 0.25rem 0px; //20px 0px
+    }
+    input{
+        background-color: none;
+        border: none;
+        border-bottom: 1px solid $blue;
+        height: 1.25rem;
+        // overline: none;
+    }
+    // i{
+    //     color: green;
+    // }
+}
+
+.btn{
+    width: 16rem;//256
+    height: 3rem;//16px
+    border: none;
+    background-color: $dark-grey;
+    color: white;
+    font-weight: 700;
+    cursor:grab;
+    margin: 1.875rem 0px 6rem 0px;//30px 0px 96px 0px 
+}
+
+.little__text{
+    font-size: 0.75rem;//12px
+    color: black;
+}
+
+.change_color{
+    background-color: $ligth-blue;
+    transition: all 300ms ease;
+}
+
+.red{
+    color: red !important;
+}
